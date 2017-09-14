@@ -19,10 +19,10 @@ This program is used to convert different types of ppm files.
 
 ##Commandline Arguments:
 
-Example: ./ppmrw 3 input.ppm output.ppm
-	 ./ppmrw 6 input.ppm output.ppm
+Example: 	ppmrw 3 input.ppm output.ppm
+			ppmrw 6 input.ppm output.ppm
 Where the first argument is the type of .ppm of the output.ppm
 
 ##Known Issues:
 
-This program is not functional at this time.
+When converting from P3 -> P6 the image may be off centered.
